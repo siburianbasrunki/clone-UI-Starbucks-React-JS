@@ -1,0 +1,91 @@
+.summer-container {
+    margin: 40px 0px 40px 0px;
+    display: flex;
+}
+
+.summer {
+    background-color: #fa91aa;
+    display: flex;
+}
+.summer-title {
+    font-size: 60px;
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+    color: #1e3932;
+    font-weight: 500;
+}
+.summer-description {
+    font-size: 24px;
+    max-width: 500px;
+    text-align: center;
+}
+.summer-button,.summer-button-black {
+    margin-top: 10px;
+}
+.summer-left img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+.summer-left,.summer-right {
+    max-width: 50%;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    align-content: stretch;
+    flex-direction: column;
+}
+
+
+.summer-button {
+    border: 1px solid #1e3932;
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+}
+.summer-button-black {
+    color: #1e3932;
+    font-weight: 500;
+}
+.summer-button-black:hover {
+    background-color: rgba(89, 88, 88, 0.7);
+}
+
+@media screen and (max-width : 1024px){
+    .summer {
+        display: flex;
+        flex-direction: column;
+    }
+    .summer-title {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .summer-right {
+        padding: 10px;
+    }
+    .summer-description {
+        font-size: 18px;
+    }
+    .summer-button {
+        margin-top: 20px;
+    }
+    .summer-right, .summer-left {
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+    }
+    .summer-description {
+        margin: 0 auto;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width :600px) {
+    
+}

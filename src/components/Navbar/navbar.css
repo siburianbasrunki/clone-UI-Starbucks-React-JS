@@ -1,0 +1,84 @@
+.Navbar {
+   padding: 20px;
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+   box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.navbar-left img {
+    width: 50px;
+    margin-right: 20px;
+}
+.navbar-left img:hover{
+    cursor: pointer;
+}
+.navbar-left div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-left div:hover,.find-store:hover {
+    color: #00754a;
+    cursor: pointer;
+
+}
+
+.navbar-left,.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.navbar-left > *,.navbar-right > * {
+    margin: 10px;
+}
+.find-store {
+    font-weight: 500;
+}
+.button {
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+}
+.button:hover {
+    cursor: pointer;
+}
+.button-sign-in:hover{
+    background-color: rgba(0, 0, 0, 0.06);
+}
+.button-join {
+    background-color: black;
+    color: white;
+}
+.button-join:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.toggle-responsive{
+    display: none;
+}
+
+@media screen and (max-width : 1024px){
+    .toggle-responsive {
+        display: block;
+        margin-right: 30px;
+        font-size: 25px;
+    }
+    .toggle-responsive:hover {
+        cursor: pointer;
+    }
+    .navbar-left > div,.navbar-right {
+        display: none;
+    }
+    .Navbar {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    
+}
